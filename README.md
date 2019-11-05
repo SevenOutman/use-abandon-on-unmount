@@ -4,7 +4,7 @@
 
     yarn add @sevenoutman/use-abandon-on-unmount
 
- ## Usage
+## Usage
 
  ```javascript
  import useAbandonOnUnmount from '@sevenoutman/use-abandon-on-unmount';
@@ -18,7 +18,7 @@
      const fetchData = useCallback(async () => {
          const result = await abandonOnUnmount(requestData());
          setData(result); // Will not excute after this component unmounts
-     }, [setData]);
+     }, [abandonOnUnmount, setData]);
 
      return (
         // ...
@@ -26,7 +26,7 @@
  }
  ```
 
- ## Why?
+## Why?
 
 Get you rid of this:
 
