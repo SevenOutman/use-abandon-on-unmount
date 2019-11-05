@@ -1,0 +1,29 @@
+{
+  "name": "@sevenoutman/use-abandon-on-unmount",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "promise",
+    "cancellable",
+    "abort"
+  ],
+  "author": "Doma<leishenghao@126.com>",
+  "repository": "git@github.com:SevenOutman/use-abandon-on-unmount.git",
+  "homepage": "https://github.com/SevenOutman/use-abandon-on-unmount",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "typescript": "^3.6.4"
+  }
+}
