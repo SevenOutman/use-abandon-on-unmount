@@ -1,9 +1,13 @@
 {
   "name": "@sevenoutman/use-abandon-on-unmount",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "types": "index.d.ts",
+  "files": [
+    "dist",
+    "*.d.ts"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
